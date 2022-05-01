@@ -57,7 +57,7 @@
 				</fieldset>
 
 				<fieldset class="form-group">
-					<label>User Email</label> <input type="text"
+					<label>User Email</label> <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
 						value="<c:out value='${user.email}' />" class="form-control"
 						name="email">
 				</fieldset>
